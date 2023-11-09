@@ -1,0 +1,185 @@
+*{
+    margin:0px;
+} 
+.backimg{
+    height:330px;
+    width:100%;
+    position:relative;
+}
+.books{
+    height:250px;
+}
+.text{
+    position:absolute;
+    top:110px;
+    bottom:50px;
+    width:50%;
+    margin-left:50px;
+    color:white;
+}
+.box3{
+    padding: 5%;
+}
+.games{
+    height:230px;
+}
+.crafts{
+    height:230px;
+}
+.krishti{
+    height:150px;
+    width:150px;
+    border-radius: 50%;
+}
+.car{
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+.text>h1{
+    font-size:50px;
+}
+.text>h5{
+    margin-top:10px;
+}
+.buy>p{
+     font-weight: 900;
+}
+h4{
+    color:#abacab;
+    font-weight: 200;
+    font-size: 14px;
+}
+.adds{
+    background-color:#6196ff;
+    color:white;
+    display:flex;
+    justify-content: center;
+    gap:5px;
+    border-radius: 4px;
+    padding:5px;
+    width:90%;
+}
+.sah{
+    padding-left: 152px;
+}
+.sahu{
+    padding-left: 3px;
+}
+.tin1,.tin2,.tin3{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.kid1{
+     margin-bottom: 15px;
+}
+
+.child1{
+    display:flex;
+    gap:90px;
+}
+.box1{
+    display: flex;
+    justify-content: space-between;
+}
+.img{
+    padding-left:55px;
+}
+.add{
+    background-color:#6196ff;
+    color:white;
+    display:flex;
+    justify-content: center;
+    gap:5px;
+    border-radius: 4px;
+    padding:5px;
+    margin-left: 70px;
+}
+.amount{
+    font-weight:900;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    color:white;
+    gap: 890px;
+    background-color: black;
+    margin-top: 100px;
+    height:300px;
+}
+.foot1>h2{
+    margin-left:140px;
+}
+.krish{
+    border-radius: 100%;
+    margin-left: 150px;
+    margin-top:30px;
+}
+.k1{
+    padding-left:165px;
+}
+.k2{
+    padding-left: 9px;
+}
+.foot2{
+    top:50px;
+}
+.foot1>h2{
+    margin-top:-60px;
+}
+.box2{
+    margin-top: 20px;
+}
+@media only screen and (max-width: 600px) {
+    .tin1,.tin2,.tin3{
+        margin: 10px;
+        flex-wrap: wrap;
+    }     
+    .img{
+        height:30px;
+        
+    } 
+    .tin1{
+        margin-left:50px ;
+    }
+    .footer{
+        display: flex;
+        align-items: center;
+        color:white;
+        background-color: black;
+        margin-top:30px;
+    }
+    
+    .tin2,.tin3{
+        margin-left:2px;
+    }
+    .box3>h2{
+        padding-left:55px;
+    }
+    .k1,.k2{
+        padding: 0px;
+    }
+    .footer{
+        gap: 1px;
+        margin-left:-140px;
+        display:flex;
+        justify-content: center;
+    }
+    .foot1>h2{
+        margin-right:20px;
+    }
+    h2{
+        margin-left:-30px;
+    }
+    .backimg{
+        height:350px;
+        width:325px;
+    }
+    .img{
+        margin-right:50px;
+    }
+    .c1{
+        height:30px;
+    }
+}
